@@ -3,6 +3,9 @@ fastapi
 uvicorn
 httpx
 
+[vm]
+auto_destroy = false
+
 app = "your-app-name"
 primary_region = "iad"
 
