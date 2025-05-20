@@ -1,4 +1,4 @@
-app = "My-Fast-API-app" 
+app = "redwood"
 primary_region = "iad"
 
 [vm]
