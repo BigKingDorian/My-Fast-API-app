@@ -1,5 +1,9 @@
 app = "red-wood-4254"
-primary_region = "iad"
+
+[deploy]
+	release_command = ""
+ 	strategy = "immediate"
+	primary_region = "iad"
 
 [vm]
 auto_destroy = false
