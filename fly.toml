@@ -1,11 +1,10 @@
-app = "redwood-4254"
+app = "red-wood-4254"
 primary_region = "iad"
 
 [vm]
 auto_destroy = false
 
-[build]
-image = "python:3.11"
+[build] image = "python:3.11"
 
 [env]
 PORT = "8080"
@@ -14,10 +13,10 @@ PORT = "8080"
 internal_port = 8080
 protocol = "tcp"
 
-  [[services.ports]]
-  handlers = ["http"]
-  port = 80
+	[[services.ports]]
+	handlers = ["http"]
+	port = 80
 
-  [[services.ports]]
-  handlers = ["tls", "http"]
-  port = 443
+	[[services.ports]]
+	handlers = ["tls", "http"]
+	port = 443
