@@ -5,9 +5,6 @@ app = "red-wood-4254"
  	strategy = "immediate"
 	primary_region = "iad"
 
-[vm]
-auto_destroy = false
-
 [build]
 image = "python:3.11"
 
