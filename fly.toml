@@ -4,7 +4,7 @@ primary_region = "iad"
 [vm]
 auto_destroy = false
 
-[build] 
+[build]
 image = "python:3.11"
 
 [env]
