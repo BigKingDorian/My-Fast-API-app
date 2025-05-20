@@ -1,4 +1,4 @@
-app = "myfastapiapp"  # <-- use your real Fly.io app name here
+app = "My-Fast-API-app"  # <-- use your real Fly.io app name here
 primary_region = "iad"
 
 [vm]
