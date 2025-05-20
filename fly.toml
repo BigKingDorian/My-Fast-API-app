@@ -1,9 +1,9 @@
 app = "red-wood-4254"
 
 [deploy]
-	release_command = ""
- 	strategy = "immediate"
-	primary_region = "iad"
+release_command = ""
+ strategy = "immediate"
+primary_region = "iad"
 
 [build]
 image = "python:3.11"
@@ -15,9 +15,9 @@ PORT = "8080"
 internal_port = 8080
 protocol = "tcp"
 
-	[[services.ports]]
-	handlers = ["http"]
-	port = 80
+[[services.ports]]
+handlers = ["http"]
+port = 80
 
 	[[services.ports]]
 	handlers = ["tls", "http"]
