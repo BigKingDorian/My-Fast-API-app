@@ -1,4 +1,4 @@
-app = "redwood4254"
+app = "redwood-4254"
 primary_region = "iad"
 
 [vm]
