@@ -1,4 +1,4 @@
-app = "autumn-flower-8646"
+app = "small-pond-9482"
 
 [deploy]
 release_command = ""
