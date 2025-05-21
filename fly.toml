@@ -1,4 +1,4 @@
-app = "My-Fast-API-app"
+app = "twilight-fire-8762"
 
 [deploy]
 release_command = ""
