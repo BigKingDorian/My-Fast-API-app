@@ -2,7 +2,7 @@ app = "twilight-fire-8762"
 
 [deploy]
 release_command = ""
- strategy = "immediate"
+strategy = "immediate"
 primary_region = "iad"
 
 [build]
