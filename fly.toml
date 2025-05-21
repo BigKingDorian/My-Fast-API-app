@@ -1,4 +1,4 @@
-app = "snowy-frost-4358"
+app = "My-Fast-API-app"
 
 [deploy]
 release_command = ""
